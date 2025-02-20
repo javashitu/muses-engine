@@ -1,0 +1,8 @@
+  consul:
+    address: 127.0.0.1
+    port: 8499
+  grpc:
+    serviceName: muses-engine
+    address: 127.0.0.1
+    port: 8513
+    healthCheckSeconds: 10

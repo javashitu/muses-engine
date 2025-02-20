@@ -1,0 +1,13 @@
+application:
+  appMode: "debug"
+  httpPort: "8031"
+  jwtSecurityKey: "TKjAYsplFrcM4KkHSvLeET2"
+  jwtExpireSeconds: 3600
+log:
+  logDir: "D:/vscode/work place/muses-engine/log/"
+  # logDir: "/opt/data/soft/muses-engine/log/"
+  serverLogName: "muses-engine.log" 
+  maxSize: 1024
+  maxBackups: 20
+  maxAge: 7
+  compress: true

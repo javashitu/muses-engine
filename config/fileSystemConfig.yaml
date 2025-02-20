@@ -1,0 +1,13 @@
+upload:
+  #userId_timestamp_fileName
+  fileNameFormat: "%s_%d_%s"
+  #/dir/raw/fileType/date/fileName
+  filePathFormat: "%s/raw/%s/%s/%s" 
+download:
+  videoDownloadDir: "D:/ffmpeg/ffmpeg-git-20240629-amd64-static"
+videoManager:
+  scriptDir: "/opt/data/soft/muses-engine/script"
+  transcodeVideoScript: "trasncodeVideo.sh"
+
+
+

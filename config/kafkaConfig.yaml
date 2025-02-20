@@ -1,0 +1,16 @@
+videoPub:
+    topic: "video_pub"
+    group: "muses-engine"
+    brokers: 
+        - "192.168.131.24:9092"
+        # - "127.0.0.1:9092"
+    minBytes: 10000
+    maxBytes: 10000000 
+    readBatchTimeOut: 3
+videoTrscode:
+    topic: "video_transcode"    
+    brokers:
+        - "192.168.131.24:9092"
+    writeTimeout: 1
+    acks: -1
+    batchSize: 4096    
